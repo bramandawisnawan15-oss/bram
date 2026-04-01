@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil - I Gede Bramanda Putra Wisnawan</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Latar belakang animasi -->
+    <div class="background-elements">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+    
+    <!-- Kontainer Profil -->
+    <div class="profile-container">
+        <div class="profile-card">
+            <!-- Bagian Gambar Profil -->
+            <div class="profile-header">
+                <div class="image-wrapper">
+                    <!-- Gambar Profil Default -->
+                    <img src="https://ui-avatars.com/api/?name=Bramanda+Putra&size=512&background=random&color=fff" alt="Foto Profil" class="profile-img" id="profileImage">
+                    
+                    <!-- Overlay untuk mengganti foto -->
+                    <div class="image-overlay">
+                        <label for="imageUpload" class="upload-btn">
+                            <i class="fas fa-camera"></i>
+                            <span>Ganti Foto</span>
+                        </label>
+                        <!-- Input file disembunyikan, diklik melalui label di atas -->
+                        <input type="file" id="imageUpload" accept="image/*" style="display: none;">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Bagian Informasi -->
+            <div class="profile-info">
+                <h1 class="name">I Gede Bramanda Putra Wisnawan</h1>
+                <p class="class-badge">
+                    <i class="fas fa-graduation-cap"></i> Kelas XII.1
+                </p>
+                
+                <div class="bio">
+                    <p>Halo! Selamat datang di web profil saya. Saya adalah siswa kelas XII.1 yang bersemangat dalam belajar dan selalu ingin mengembangkan diri untuk mencapai cita-cita.</p>
+                </div>
+                
+                <!-- Tautan Sosial Media -->
+                <div class="social-links">
+                    <a href="#" class="social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
